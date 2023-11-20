@@ -1,0 +1,69 @@
+/* index.css */
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the ViewForms component */
+.view-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.view-form-table {
+  width: 80%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-form-table th,
+.view-form-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.view-form-table th {
+  background-color: #0f0101;
+  color: white;
+}
+
+.view-form-actions {
+  margin-top: 20px;
+}
+
+.view-form-accept {
+  padding: 12px;
+  background-color: #64c067;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-form-decline {
+  padding: 12px;
+  background-color: #e65248;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-form-accept:hover {
+  background-color: #64c067;
+}
+
+.view-form-decline:hover {
+  background-color: #e65248;
+}
